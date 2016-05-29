@@ -7,6 +7,7 @@ target 'ios-WithO' do
     pod 'RxSwift', '~> 2.0'
     pod 'RxCocoa', '~> 2.0'
     pod 'Bond', '~> 4.0'
+    pod 'RealmSwift'
 end
 
 target 'ios-WithOTests' do
