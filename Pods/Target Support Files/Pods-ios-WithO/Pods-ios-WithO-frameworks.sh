@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ios-WithO/Bond.framework"
   install_framework "Pods-ios-WithO/RxCocoa.framework"
   install_framework "Pods-ios-WithO/RxSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ios-WithO/Bond.framework"
   install_framework "Pods-ios-WithO/RxCocoa.framework"
   install_framework "Pods-ios-WithO/RxSwift.framework"
 fi
