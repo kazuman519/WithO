@@ -4,8 +4,9 @@
 use_frameworks!
 
 target 'ios-WithO' do
-    pod 'RxSwift',    '~> 2.0'
-    pod 'RxCocoa',    '~> 2.0'
+    pod 'RxSwift', '~> 2.0'
+    pod 'RxCocoa', '~> 2.0'
+    pod 'Bond', '~> 4.0'
 end
 
 target 'ios-WithOTests' do
