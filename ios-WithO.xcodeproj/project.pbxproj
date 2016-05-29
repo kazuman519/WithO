@@ -15,8 +15,6 @@
 		A41B45C11CF205F20020B5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41B45BF1CF205F20020B5A4 /* LaunchScreen.storyboard */; };
 		A41B45CC1CF205F20020B5A4 /* ios_WithOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B45CB1CF205F20020B5A4 /* ios_WithOTests.swift */; };
 		A41B45D71CF205F20020B5A4 /* ios_WithOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B45D61CF205F20020B5A4 /* ios_WithOUITests.swift */; };
-		A47CA7471CFAEB700072AEE7 /* Buisiness in Resources */ = {isa = PBXBuildFile; fileRef = A47CA7451CFAEB700072AEE7 /* Buisiness */; };
-		A47CA7481CFAEB700072AEE7 /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = A47CA7461CFAEB700072AEE7 /* Presentation */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +50,6 @@
 		A41B45D21CF205F20020B5A4 /* ios-WithOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-WithOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41B45D61CF205F20020B5A4 /* ios_WithOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_WithOUITests.swift; sourceTree = "<group>"; };
 		A41B45D81CF205F20020B5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47CA7451CFAEB700072AEE7 /* Buisiness */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buisiness; sourceTree = "<group>"; };
-		A47CA7461CFAEB700072AEE7 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
 		C36D191B23DF4CE17BDF397F /* Pods_ios_WithO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_WithO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,8 +113,8 @@
 		A41B45B51CF205F20020B5A4 /* ios-WithO */ = {
 			isa = PBXGroup;
 			children = (
-				A47CA7451CFAEB700072AEE7 /* Buisiness */,
-				A47CA7461CFAEB700072AEE7 /* Presentation */,
+				A47CA7491CFAEC070072AEE7 /* Buisiness */,
+				A47CA74C1CFAEC070072AEE7 /* Presentation */,
 				A41B45B61CF205F20020B5A4 /* AppDelegate.swift */,
 				A41B45B81CF205F20020B5A4 /* ViewController.swift */,
 				A41B45BA1CF205F20020B5A4 /* Main.storyboard */,
@@ -145,6 +141,44 @@
 				A41B45D81CF205F20020B5A4 /* Info.plist */,
 			);
 			path = "ios-WithOUITests";
+			sourceTree = "<group>";
+		};
+		A47CA7491CFAEC070072AEE7 /* Buisiness */ = {
+			isa = PBXGroup;
+			children = (
+				A47CA74A1CFAEC070072AEE7 /* Entity */,
+				A47CA74B1CFAEC070072AEE7 /* ViewModel */,
+			);
+			path = Buisiness;
+			sourceTree = "<group>";
+		};
+		A47CA74A1CFAEC070072AEE7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A47CA74B1CFAEC070072AEE7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A47CA74C1CFAEC070072AEE7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A47CA74D1CFAEC070072AEE7 /* SignUp */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A47CA74D1CFAEC070072AEE7 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		E410F848D4CF53F04F7E0E61 /* Frameworks */ = {
@@ -264,8 +298,6 @@
 			files = (
 				A41B45C11CF205F20020B5A4 /* LaunchScreen.storyboard in Resources */,
 				A41B45BE1CF205F20020B5A4 /* Assets.xcassets in Resources */,
-				A47CA7471CFAEB700072AEE7 /* Buisiness in Resources */,
-				A47CA7481CFAEB700072AEE7 /* Presentation in Resources */,
 				A41B45BC1CF205F20020B5A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
