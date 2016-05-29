@@ -1,16 +1,24 @@
 PODS:
   - Bond (4.3.1)
+  - Realm (1.0.0):
+    - Realm/Headers (= 1.0.0)
+  - Realm/Headers (1.0.0)
+  - RealmSwift (1.0.0):
+    - Realm (= 1.0.0)
   - RxCocoa (2.5.0):
     - RxSwift (~> 2.5)
   - RxSwift (2.5.0)
 
 DEPENDENCIES:
   - Bond (~> 4.0)
+  - RealmSwift
   - RxCocoa (~> 2.0)
   - RxSwift (~> 2.0)
 
 SPEC CHECKSUMS:
   Bond: 55903fc67f09e8e49791a657163cabba1d6fb29d
+  Realm: e15cd8e7c11d3e576f628ba0b7cb855269b4991c
+  RealmSwift: 3229306d020d96f83b335f87a0dcbf2cef0e6a2b
   RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
   RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
 
